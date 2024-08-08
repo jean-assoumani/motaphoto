@@ -1,0 +1,10 @@
+# Dossiers
+/assets
+
+# Fichiers
+*.log
+*.DS_Store
+*.user
+*.vscode
+*.tmp
+
