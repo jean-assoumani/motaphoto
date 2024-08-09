@@ -17,5 +17,6 @@ function mota_photo_enqueue_scripts()
 {
     wp_enqueue_style('mota-photo-style', get_stylesheet_uri());
     wp_enqueue_script('mota-photo-script', get_template_directory_uri() . '/assets/js/toggle.js', array('jquery'), null, true);
+    wp_enqueue_script('contact-modal-script', get_template_directory_uri() . '/assets/js/contact-modal.js', ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', 'mota_photo_enqueue_scripts');

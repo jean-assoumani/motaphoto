@@ -6,7 +6,7 @@
         <?php dynamic_sidebar('footer-widget'); ?>
     </aside>
 </footer>
-
+<?php get_template_part('template-parts/contact-modal'); ?>
 <?php wp_footer(); ?>
 
 </body>
